@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather App 2025</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🌤️ Clima Weather App</h1>
+        <div id="datetime"></div>
+        <input type="text" id="cityInput" placeholder="Enter city name" />
+        <div class="buttons">
+            <button onclick="getWeather()">Search</button>
+            <button onclick="getLocationWeather()">Use My Location</button>
+            <button onclick="toggleUnit()">Toggle °C/°F</button>
+            <button onclick="toggleDarkMode()">🌓 Dark Mode</button>
+        </div>
+        <div>
+            <h3>⭐ Favorite Cities</h3>
+            <div id="favorites"></div>
+        </div>
+        <div id="weatherResult"></div>
+        <div id="forecast"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
